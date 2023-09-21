@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Reddit.Repositories.Abstractions\Reddit.Repositories.Abstractions.csproj" />
+    <ProjectReference Include="..\Reddit.Repositories\Reddit.Repositories.csproj" />
+    <ProjectReference Include="..\Reddit.Services.Abstractions\Reddit.Services.Abstractions.csproj" />
+    <ProjectReference Include="..\Reddit.Services\Reddit.Services.csproj" />
+  </ItemGroup>
+
+</Project>
